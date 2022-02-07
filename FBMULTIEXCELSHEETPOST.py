@@ -17,9 +17,9 @@ from selenium.common.exceptions import NoSuchElementException
 from random import randint
 from time import sleep
 
-EmailList = pd.read_excel('Marketplacesellingdata.xlsx', sheet_name = 'Item1', engine='openpyxl')
-EmailList1 = pd.read_excel('Marketplacesellingdata.xlsx', sheet_name = 'Item2', engine='openpyxl')
-EmailList2 = pd.read_excel('Marketplacesellingdata.xlsx', sheet_name = 'Item3', engine='openpyxl')
+EmailList = pd.read_excel('Your_Excel_File_Path.xlsx', sheet_name = 'Item1', engine='openpyxl')
+EmailList1 = pd.read_excel('Your_Excel_File_Path.xlsx', sheet_name = 'Item2', engine='openpyxl')
+EmailList2 = pd.read_excel('Your_Excel_File_Path.xlsx', sheet_name = 'Item3', engine='openpyxl')
 
 
 
